@@ -14,10 +14,12 @@
 .hero-text{
     display: flex;
     flex-direction: column;
-    justify-content:stretch;
+    justify-content:center;
+    margin-top: 20px;
     margin-right: 100px;
-    margin-top: 50px;
-
+}
+.hero-text p {
+    padding-top: 50px;
 }
 .color-name{
     color: var(--red-highlight);
