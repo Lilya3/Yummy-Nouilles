@@ -14,8 +14,8 @@
 .hero-text{
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
-    padding-right: 40px;
+    padding-top: 60px;
+    margin-right: 120px;
 }
 
 .hero-text p {
