@@ -14,10 +14,10 @@
 .hero-text{
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    margin-top: 20px;
-    margin-right: 100px;
+    padding-top: 50px;
+    padding-right: 40px;
 }
+
 .hero-text p {
     padding-top: 50px;
 }
