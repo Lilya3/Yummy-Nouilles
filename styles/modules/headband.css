@@ -1,0 +1,17 @@
+.headband{
+    background-color: var(--red-highlight);
+    text-align: center;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3.125rem;
+}
+
+.color{
+    color: white;
+}
+
+.headband .cta{
+    margin: 0;
+}

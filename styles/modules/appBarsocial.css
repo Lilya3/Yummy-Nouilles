@@ -1,0 +1,9 @@
+.icons{
+    background-color: var(--black);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 4.5rem;
+    gap: 3.125rem;
+}

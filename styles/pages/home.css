@@ -37,20 +37,6 @@ p{
     font-weight: var(--body-highlight-font-weight);
 }
 
-.cta{
-    display: inline-block;
-    background-color: var(--black);
-    font-family: var(--title-font);
-    font-style: normal;
-    font-size: var(--title-font-size);
-    font-weight: var(--title-font-weight);
-    line-height: var(--title-line-height);
-    text-align: center;
-    color: white;
-    padding: 15px 10px;
-    width: 200px;
-    margin-top: 10px;
-}
 
 /*Restaurants section*/
 
@@ -75,4 +61,27 @@ h2{
     justify-content: center;
     align-items: flex-start;
     gap: 10px;
+}
+
+    /*Social Média section */
+
+.conteneur{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 4.375rem;
+}
+
+.conteneur-photo{
+    display: flex;
+    flex-direction: row;
+    gap: 4.375rem;
+}
+
+.social{
+    text-align: justify;
+    display: flex;
+    justify-content: center;
 }

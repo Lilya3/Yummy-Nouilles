@@ -4,6 +4,9 @@
 /* Modules */
 @import 'pages/home.css';
 @import 'modules/appBar.css';
+@import 'modules/headband.css';
+@import 'modules/contact.css';
+@import 'modules/appBarsocial.css';
 
 
 :root{
@@ -43,6 +46,9 @@ body{
     font-size: var(--body-font-size);
     line-height: var(--body-line-height);
     color: var(--black);
+    max-width: 1440px; /*Temporaire*/
+    max-height: 2662px; /*Temporaire*/
+    margin: auto; /*Temporaire*/
 }
 
 h1{
@@ -66,9 +72,22 @@ h2{
     text-decoration-thickness: 0.188rem ;
 }
 
-a {
+a{
    text-decoration: none;
-   color: var(--black);
 }
 
+.cta{
+    display: inline-block;
+    color: white;
+    background-color: var(--black);
+    font-family: var(--title-font);
+    font-style: normal;
+    font-size: var(--title-font-size);
+    font-weight: var(--title-font-weight);
+    line-height: var(--title-line-height);
+    text-align: center;
+    padding: 15px 10px;
+    width: 200px;
+    margin-top: 15px;
+}
 

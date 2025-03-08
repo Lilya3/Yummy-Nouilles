@@ -21,6 +21,7 @@
     font-size: var(--title-font-size);
     line-height: var(--title-line-height);
     margin-left: 1rem;
+    color: black;
 }
 
 .appBar__nav-item:hover,
