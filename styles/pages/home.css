@@ -33,8 +33,9 @@ p{
     line-height: var(--body-highlight-line-height);
 }
 
-.body-highlight-weight{
+.body-highlight-font-weight{
     font-weight: var(--body-highlight-font-weight);
+    
 }
 
 

@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+}
+
+
+.title-menu{
+    display: block;
+    justify-content: flex-start;
+    text-align: justify;
+    padding: 5rem 8rem 1rem;
+}
+
+.restaurant-menu{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 1px;
+    margin: 0rem 8rem;
+    padding-bottom: 4rem;
+}
+
+.restaurant-menu h2{
+    text-underline-offset: 0.8rem;
+    text-decoration-thickness: 0.1rem;
+}
+
+.title-menu p{
+    padding-top: 2rem;
+}
+
+span{
+    color: var(--red-highlight);
+}
+
+.logo-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top:4.5rem;
+    padding-bottom: 1rem;
+}
+
+.dishes{
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.dishes p{
+    padding-bottom: 0.5rem;
+}
+
+
+
+
+
+
