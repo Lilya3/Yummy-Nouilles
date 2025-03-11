@@ -3,56 +3,104 @@
 }
 
 
-.title-menu{
-    display: block;
-    justify-content: flex-start;
-    text-align: justify;
-    padding: 5rem 8rem 1rem;
-}
-
-.restaurant-menu{
-    background-color:white;
+.menu{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    border: 1px;
-    margin: 0rem 8rem;
-    padding-bottom: 4rem;
+    margin: 0 9.5rem 0 9.5rem;
 }
 
-.restaurant-menu h2{
-    text-underline-offset: 0.8rem;
-    text-decoration-thickness: 0.1rem;
+.menu__title{
+    margin: 4rem 0 2rem 0;
 }
 
-.title-menu p{
-    padding-top: 2rem;
+.menu__subtitle{
+    margin: 0 0 2.25rem 0;
 }
 
-span{
+.menu__subtitle span{
     color: var(--red-highlight);
 }
-
-.logo-menu{
+.menu__card{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding-top:4.5rem;
-    padding-bottom: 1rem;
+    background-color:white;
+    text-align: center;
+    padding-bottom: 5rem;
 }
 
-.dishes{
-    padding: 1rem 0rem 1rem 0rem;
+.menu__icon{
+    width: 9rem;
+    height: 9rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
 }
 
-.dishes p{
-    padding-bottom: 0.5rem;
+.menu__part{
+    margin-bottom: 3.75rem;
 }
 
+.menu__partTitle{
+    margin-bottom: 1.75rem;
+}
 
+.menu__partDish{
+    margin-bottom: 2rem;
+    line-height: 2.5rem;
+}
 
+.menu .menu__card .menu__part .menu__partTitle{
+    display: block;
+    text-underline-offset: 1rem;
+    text-decoration-thickness: 0.2rem;
+    font-size:1.8rem;
+    padding-bottom: 1.5rem;
+}
 
+@media(max-width:768px){
+    .menu{
+        margin: 0;
+        align-items: center;
+    }
+
+    .menu__title{
+        margin-top: 4rem;
+        margin-bottom: 3.5rem;
+    }
+    .menu__subtitle{
+        display: none;
+    }
+
+    .menu__card{
+        width: 19.5rem;
+        padding-bottom: 2rem;
+        margin: 0rem;
+    }
+    .menu__icon{
+        width: 5rem;
+        height: 5rem;
+        margin-top: 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .menu__part{
+        margin-bottom: 0.9rem;
+    }
+
+    .menu__partTitle{
+        margin-bottom: 0;
+    }
+
+    .menu__partDish{
+        margin-bottom: 0;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .menu__dishDescription{
+        display: none;
+        margin: 0;
+    }
+}
 
 

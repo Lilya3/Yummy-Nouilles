@@ -18,6 +18,12 @@
 
 @media (max-width: 768px) {
     .contactInfo__text {
-        max-width: 16rem;
+        max-width: 19.2rem;
     }
+
+    .contactInfo{
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+    }
+
 }

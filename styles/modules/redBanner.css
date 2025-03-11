@@ -11,13 +11,13 @@
 .redBanner__title{
     font-weight: var(--body-hightlight-font-weight);
     margin: 0 0 1rem 0;
+    color: white;
 }
 
 @media (max-width: 768px){
     .redBanner{
         padding: 2.75rem 0 2.75rem 0;
     }
-                                            /* RIEN COMPRIS / COMMENT DEVINER UN TRUC PAREIL QU'ON NE PEUT MÊME PAS VOIR LE PB DANS L'INSPECTEUR ETC???*/
     .redBanner__title{
         margin-bottom: 2rem;
     }
