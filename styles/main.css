@@ -1,14 +1,22 @@
 /* Design System */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&display=swap');
 
+
 /* Modules */
-@import 'pages/home.css';
+
 @import 'modules/appBar.css';
-@import 'modules/headband.css';
-@import 'modules/contact.css';
-@import 'modules/appBarsocial.css';
+@import 'modules/redBanner.css';
+@import 'modules/contactInfo.css';
+@import 'modules/footer.css';
+@import 'modules/cta.css';
+
+
+/* Pages */
+
+@import 'pages/home.css';
 @import 'pages/menu.css';
 @import 'pages/contact.css';
+
 
 :root{
     /* Colors */
@@ -52,12 +60,6 @@ body{
     margin: auto; /*Temporaire*/
 }
 
-html{
-    max-width: 1440px; /*Temporaire*/
-    max-height: 2662px; /*Temporaire*/
-    margin: auto; /*Temporaire*/
-}
-
 h1{
     font-family: var(--header-font);
     font-style: normal;
@@ -79,26 +81,13 @@ h2{
     text-decoration-thickness: 0.188rem ;
 }
 
-a{
-   text-decoration: none;
+.color-highlight {
+    color: var(--red-highlight);
 }
 
-.cta{
-    display: inline-block;
-    color: white;
-    background-color: var(--black);
-    font-family: var(--title-font);
-    font-style: normal;
-    font-size: var(--title-font-size);
-    font-weight: var(--title-font-weight);
-    line-height: var(--title-line-height);
-    text-align: center;
-    padding: 15px 10px;
-    width: 200px;
-    margin-top: 15px;
+.text-highlight {
+    font-weight: var(--body-hightlight-font-weight);
 }
-
-
 
 @media screen and (max-width:480px){
 

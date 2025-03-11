@@ -12,6 +12,7 @@
 .appBar__nav{
     display: flex;
     align-items: center;
+    padding-left: 2rem;
 }
 
 .appBar__nav-item{
@@ -20,8 +21,9 @@
     font-weight: var(--title-font-weight);
     font-size: var(--title-font-size);
     line-height: var(--title-line-height);
-    margin-left: 1rem;
     color: black;
+    text-decoration: none;
+    margin-right: 1rem;
 }
 
 .appBar__nav-item:hover,
@@ -29,4 +31,21 @@
     text-decoration: underline var(--red-highlight);
     text-underline-offset: 0.25rem;
     text-decoration-thickness:0.188rem ;
+}
+
+@media (max-width: 768px) {
+    .appBar{
+        padding-left: 0;
+        padding-right: 0;
+        justify-content: center;
+    }
+
+    .appBar__icon{
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .appBar__nav{
+        padding-left: 1rem;
+    }
 }

@@ -1,90 +1,113 @@
 *{
     margin: 0;
 }
+
+
 /*Hero section*/
 
 .hero{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
-    padding-bottom: 100px;
+    margin-top: 6.5rem;
 }
 
-.hero-text{
-    display: flex;
-    flex-direction: column;
-    padding-top: 60px;
-    margin-right: 120px;
+.hero__titleContainer{
+    padding: 2.75rem 7.5rem 0 0;
 }
 
-.hero-text p {
-    padding-top: 50px;
+.hero__title{
+    margin : 0 0 0.75rem 0;
 }
+
+.hero__subtitle{
+    margin: 0 0 2rem 0;
+    font-weight: var(--body-highlight-font-weight);
+}
+
+.hero__icon{
+    width: 19rem;
+    height: 19rem;
+}
+
 .color-name{
     color: var(--red-highlight);
 }
 
-p{
-    padding-bottom: 20px;
-    color: var(--black);
-    font-family: var(--body-highlight-font);
-    font-size: var(--body-highlight-font-size);
-    line-height: var(--body-highlight-line-height);
-}
-
-.body-highlight-font-weight{
-    font-weight: var(--body-highlight-font-weight);
-    
-}
 
 
-/*Restaurants section*/
-
-
-h2{
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
+/*Address section*/
 
 .restaurants{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 100px;
-       
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 4.5rem;
 }
-.content-restaurants{
+
+.address__title{
+    margin-bottom: 2.25rem;
+}
+
+.address{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 7rem;
+}
+
+.address__img{
+    width: 19rem;
+    height: 13.5rem;
+    object-fit: cover;
+}
+
+.address__info{
+    margin: 0.5rem 0 0 0;
+}
+
+
+    /* About section*/
+
+.about{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 10px;
+    align-items: center;
+    margin-top: 2.25rem;
+}
+
+.about__title{
+    margin-bottom: 1rem ;
+}
+
+.about__text{
+    margin: 0 0 0 0;
+    width: 85%;
 }
 
     /*Social Média section */
 
-.conteneur{
+.socialMedia{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin: auto;
-    gap: 4.375rem;
+    margin-top: 4rem;
 }
 
-.conteneur-photo{
-    display: flex;
-    flex-direction: row;
-    gap: 4.375rem;
+.socialMedia__title{
+    margin-bottom: 2.25rem;
 }
 
-.social{
-    text-align: justify;
-    display: flex;
-    justify-content: center;
+.socialMedia__carousel{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4.5rem;
+}
+
+.socialMedia__img{
+    width: 15.5rem;
+    height: 15.5rem;
+    object-fit: cover;
 }
 
 

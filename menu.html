@@ -2,52 +2,42 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="assets/logo.svg" />
     <link rel="stylesheet" href="styles/main.css" />
     <title>Yummy Nouilles - Menu</title>
   </head>
   <body>
     <header class="appBar">
-      <a href="index.html">
-        <img class="appBar__icon" src="assets/logo.svg" alt="Logo Yummy Nouilles">
-      </a>
-      
-      <nav class="appBar__nav">
-        <a class="appBar__nav-item" href="index.html">Accueil</a>
-        <a class="appBar__nav-item active" href="menu.html">Menu</a>
-        <a class="appBar__nav-item" href="contact.html">Contact</a>
-      </nav>
-    </header>
-
-    <main>
-      <section class="headband">
-        <p class="color">Commandez maintenant !</p>
-        <div>
-          <a class="cta" href="">CLICK & COLLECT</a>
+      <img class="appBar__icon"src="assets/logo.svg"alt="Logo Yummy Nouilles" class="appBar__logo">
+          <nav class="appBar__nav">
+            <a class="appBar__nav-item" href="index.html">Accueil</a>
+            <a class="appBar__nav-item" href="menu.html">Menu</a>
+            <a class="appBar__nav-item active" href="contact.html">Contact</a>
+          </nav>
+        </header>
+  <main>
+    <div class="redBanner">
+      <p class="redBanner__title">Commandez maintenant !</p>
+      <a class="cta" href="contact.html">CLICK & COLLECT</a>
+    </div>
+    <section>
+    <div class="title-menu">
+      <h1>MENU</h1>
+        <p>Nos menus sont <span>communs</span> à tous nos restaurants</p>
+    </div>
+    <div class="restaurant-menu">
+      <div>
+        <div class="logo-menu">
+          <img src="assets/logo.svg" alt="Logo Yummy Nouilles" />
         </div>
-      </section>
+      <h2>ENTRÉES</h2>
 
-      <section>
-        <div class="title-menu">
-          <h1>MENU</h1>
-
-          <p>Nos menus sont <span>communs</span> à tous nos restaurants</p>
-        </div>
-        <div class="restaurant-menu">
-          <div>
-            <div class="logo-menu">
-              <img src="assets/logo_l.svg" alt="Logo Yummy Nouilles" />
-            </div>
-
-            <h2>ENTRÉES</h2>
-
-            <div class="dishes">
-              <p class="body-highlight-font-weight">
-                Jiaozi faits maison végétariens
-              </p>
-              <p>Raviolis fourrés au maïs et champignons</p>
-            </div>
+        <div class="dishes">
+          <p class="body-highlight-font-weight">
+            Jiaozi faits maison végétariens
+          </p>
+          <p>Raviolis fourrés au maïs et champignons</p>
+          </div>
 
             <div class="dishes">
               <p><strong>Tofu frit</strong></p>
@@ -91,32 +81,29 @@
             </div>
           </div>
         </div>
-        <section>
-          <div class="contactez-nous">
-            <h2>CONTACTEZ-NOUS</h2>
+        <section class="contactInfo">
+          <h2 class="contactInfo__title">CONTACTEZ-NOUS</h2>
 
-            <p class="contact">
-              Vous souhaitez nous poser une question, nous faire un feedback, ou
-              tout simplement nous contacter ?<br />
-              Écrivez-nous à <strong>yummy@noodles.fr</strong> ou appelez nous
-              au <strong>01 13 86 23 42</strong>
-            </p>
-          </div>
-        </section>
+          <p class="contactInfo__text">
+            Vous souhaitez nous poser une question, nous faire un feedback, ou
+            tout simplement nous contacter ?<br />
+            Écrivez-nous à <strong>yummy@noodles.fr</strong> ou appelez nous au
+            <strong>01 13 86 23 42</strong>
+          </p>
+      </section>
       </section>
     </main>
-    <footer>
-      <nav class="icons">
-        <a target="_blank" href="https://www.instagram.com/"
-          ><img src="assets/icons/instagram.svg" alt="Logo Instagram"
-        /></a>
-        <a target="_blank" href="https://www.facebook.com/"
-          ><img src="assets/icons/facebook.svg" alt="Logo Facebook"
-        /></a>
-        <a target="_blank" href="https://www.google.com/maps"
-          ><img src="assets/icons/maps.svg" alt="Logo Google Maps"
-        /></a>
-      </nav>
-    </footer>
+    <footer class="footer">
+
+      <a target="_blank" href="https://www.instagram.com/">
+        <img src="assets/icons/instagram.svg" alt="Logo Instagram" class="footer__icon">
+      </a>
+      <a target="_blank" href="https://www.facebook.com/">
+        <img src="assets/icons/facebook.svg" alt="Logo Facebook" class="footer__icon">
+      </a>
+      <a target="_blank" href="https://www.google.com/maps">
+        <img src="assets/icons/maps.svg" alt="Logo Google Maps" class="footer__icon">
+      </a>
+  </footer>
   </body>
 </html>
